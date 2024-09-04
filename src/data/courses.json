@@ -8,7 +8,7 @@
           "price": 99.99,
           "instructor": "Alice Green",
           "isFeatured": true,
-          "image": "/courses/digital-illustration.jpg"
+          "image": "/courses/digital-illustration.png"
       },
       {
           "id": 2,
@@ -18,7 +18,7 @@
           "price": 109.99,
           "instructor": "Michael Stone",
           "isFeatured": false,
-          "image": "/courses/oil-painting.jpg"
+          "image": "/courses/oil-painting.png"
       },
       {
           "id": 3,
@@ -28,7 +28,7 @@
           "price": 119.99,
           "instructor": "Sophie Lee",
           "isFeatured": true,
-          "image": "/courses/sculpture.jpg"
+          "image": "/courses/sculpture.png"
       },
       {
           "id": 4,
@@ -38,7 +38,7 @@
           "price": 129.99,
           "instructor": "David Chen",
           "isFeatured": false,
-          "image": "/courses/portrait-drawing.jpg"
+          "image": "/courses/portrait-drawing.png"
       },
       {
           "id": 5,
@@ -48,7 +48,7 @@
           "price": 139.99,
           "instructor": "Emily Johnson",
           "isFeatured": false,
-          "image": "/courses/watercolor.jpg"
+          "image": "/courses/watercolor.png"
       },
       {
           "id": 6,
@@ -58,7 +58,7 @@
           "price": 149.99,
           "instructor": "Alexandra White",
           "isFeatured": true,
-          "image": "/courses/abstract-art.jpg"
+          "image": "/courses/abstract-art.png"
       },
       {
           "id": 7,
@@ -68,7 +68,7 @@
           "price": 159.99,
           "instructor": "Samantha Miller",
           "isFeatured": false,
-          "image": "/courses/mixed-media.jpg"
+          "image": "/courses/mixed-media.png"
       },
       {
           "id": 8,
@@ -78,7 +78,7 @@
           "price": 169.99,
           "instructor": "Luke Harris",
           "isFeatured": true,
-          "image": "/courses/art-history-modernism.jpg"
+          "image": "/courses/art-history-modernism.png"
       },
       {
           "id": 9,
@@ -88,7 +88,7 @@
           "price": 179.99,
           "instructor": "Grace Lee",
           "isFeatured": false,
-          "image": "/courses/graphic-design.jpg"
+          "image": "/courses/graphic-design.png"
       },
       {
           "id": 10,
@@ -98,7 +98,7 @@
           "price": 189.99,
           "instructor": "Ethan Moore",
           "isFeatured": true,
-          "image": "/courses/printmaking.jpg"
+          "image": "/courses/printmaking.png"
       }
   ]
 }
