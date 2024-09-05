@@ -115,8 +115,8 @@ const content = [
 
 function WhyChooseUs() {
   return (
-    <div className="p-10">
-    <StickyScroll content={content} />
+    <div className="py-10 h-full">
+    <StickyScroll  content={content} />
   </div>
   )
 }
