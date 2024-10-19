@@ -11,7 +11,7 @@ interface PeopleI {
   image: string;
 }
 
-function Instructrs() {
+function Instructors() {
   const people:PeopleI[] = data.instructors
 
   return (
@@ -31,4 +31,4 @@ function Instructrs() {
   );
 }
 
-export default Instructrs;
+export default Instructors;

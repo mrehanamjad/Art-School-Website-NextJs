@@ -1,40 +1,38 @@
 "use client"
 import Link from "next/link";
-import React from "react";
-import { cn } from "@/lib/utils";
-import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
+import React from "react";
+import { Vortex } from "./ui/vortex";
 
 function HeroSection() {
   return (
-    <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
-      <Spotlight
-        className="-top-40 left-0 md:left-60 md:-top-20"
-        fill="blue"
-      />
-      <div className="p-4 relative z-10 w-full text-center">
-        <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Unleash Your Creativity
-        </h1>
-        <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Master the art of expression with our innovative courses, guided by
-          expert artists. Unlock your creative potential and develop your unique
-          style through comprehensive training designed to transform your
-          artistic vision into reality
+    <div className="w-full mx-auto rounded-md  h-[40rem] overflow-hidden">
+      <Vortex
+        backgroundColor="black"
+        className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
+      >
+        <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
+        Unleash Your Creativity
+        </h2>
+        <p className="text-white text-sm md:text-xl max-w-xl mt-6 text-center">
+        Master the art of expression with our innovative courses, guided by
+           expert artists. Unlock your creative potential and develop your unique
+           style through comprehensive training designed to transform your
+           artistic vision into reality
         </p>
         <div className="mt-4">
-          <Link href={"/courses"}>
-                    <Button
-                    borderRadius="1.75rem"
-                    className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 hover:border-2"
-                    >
-                    Explore courses
-                    </Button>
-                </Link>
-        </div>
-      </div>
+           <Link href={"/courses"}>
+                     <Button
+                     borderRadius="1.75rem"
+                     className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 hover:border-2"
+                     >
+                     Explore courses
+                     </Button>
+                 </Link>
+         </div>
+      </Vortex>
     </div>
-  );
+  )
 }
 
-export default HeroSection;
+export default HeroSection
