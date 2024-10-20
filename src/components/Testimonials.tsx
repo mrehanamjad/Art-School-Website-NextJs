@@ -22,6 +22,7 @@ function Testimonials() {
         items={testimonials}
         direction="right"
         speed="slow"
+        
       />
     </div>
   );

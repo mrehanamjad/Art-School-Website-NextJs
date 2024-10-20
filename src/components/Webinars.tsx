@@ -15,13 +15,13 @@ interface WebinarI {
 
 function Webinars() {
   return (
-    <div className="p-12 bg-gray-900">
+    <div className="p-12 bg-gray-900 w-full max-md:px-1">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="text-center">
+        <div className="text-center w-full">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase sm:text-xl">
             Featured Webinars
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:mb-5">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:mb-5 max-sm:w-full">
             Join Our Expert-Led Sessions to Elevate Your Artistic Journey
           </p>
         </div>

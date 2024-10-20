@@ -10,7 +10,7 @@ function page() {
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 blur-3xl" />
         <div className="relative shadow-xl w-full bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden  flex flex-col justify-center items-center">
           <div className="h-auto mt-8 py-20  flex flex-col gap-5">
-            <h1 className="font-bold text-4xl max-md:text-2xl text-white mb-4 relative z-50">
+            <h1 className="font-bold text-4xl max-md:text-2xl text-white mb-4 relative ">
               Contact Us:
             </h1>
             <Input label="Name:" type="text" />

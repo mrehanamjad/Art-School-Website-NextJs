@@ -8,7 +8,7 @@ import Link from "next/link";
 function page() {
   return (
     <div className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-      <div className="min-w-7xl min-h-[30rem] bg-black relative flex justify-center items-center">
+      <div className="man-w-7xl min-h-[30rem] bg-black relative flex justify-center items-center">
         <Spotlight
           className="-top-40 left-0 md:left-60 md:-top-20"
           fill="rgb(217 185 247)"

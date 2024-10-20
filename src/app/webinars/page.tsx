@@ -53,11 +53,11 @@ function page() {
         backgroundColor="black"
         className=" items-center flex-col justify-center px-2 md:px-10 py-4 overflow-auto pb-0 w-full h-full"
       >
-        <div className="w-full h-full mt-60 mb-20 py-30 flex flex-col justify-center items-center">
-          <h1 className="text-white text-2xl md:text-6xl font-bold text-center">
+        <div className="w-full h-full mt-40 md:mt-60 mb-20 py-30 flex flex-col justify-center items-center">
+          <h1 className="text-white text-4xl md:text-6xl font-bold text-center">
             Join Our Live Art Webinars
           </h1>
-          <p className="text-white text-sm md:text-lg max-w-xl mt-6 text-center">
+          <p className="text-white text-sm md:text-lg max-w-xl mb-6 mt-2 md:mt-6 text-center">
             Unlock your creativity with our live art webinars. Learn from expert
             instructors, interact in real-time, and enhance your skills from
             home. Perfect for all levels!

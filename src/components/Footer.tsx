@@ -24,8 +24,9 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
           {links.map((link)=>(
-            <li>
+            <li key={link.slug}>
             <Link 
+
             href={link.slug}
             className="hover:text-white transition-colors duration-300"
             >
