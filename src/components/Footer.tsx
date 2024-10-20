@@ -1,4 +1,13 @@
+import Link from "next/link";
+
 function Footer() {
+  const links = [
+    { name: "Home", slug: "/" },
+    { name: "Our Courses", slug: "/courses" },
+    { name: "Webinars", slug: "/webinars" },
+    { name: "Contact Us", slug: "/contact" },
+  ];
+
   return (
     <footer className="bg-black text-gray-400 py-12">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
@@ -14,38 +23,16 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
+          {links.map((link)=>(
             <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Courses
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Contact
-              </a>
-            </li>
+            <Link 
+            href={link.slug}
+            className="hover:text-white transition-colors duration-300"
+            >
+              {link.name}
+            </Link>
+          </li>
+          ))}
           </ul>
         </div>
         <div>
@@ -82,7 +69,6 @@ function Footer() {
       <p className="text-center text-xs pt-8">
         © 2024 Art School. All rights reserved.
       </p>
-      
     </footer>
   );
 }

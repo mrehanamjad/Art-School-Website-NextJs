@@ -133,55 +133,64 @@
       "title": "Exploring Abstract Art Techniques",
       "description": "Join us for an in-depth webinar on the world of abstract art, exploring various techniques and styles that define this expressive form of art.",
       "link": "https://artschool.com/webinars/abstract-art",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "/courses/abstract-art.png"
     },
     {
       "title": "Mastering Digital Illustration",
       "description": "Learn how to create stunning digital illustrations with this webinar, focusing on popular software tools and workflows used by professional digital artists.",
       "link": "https://artschool.com/webinars/digital-illustration",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "/courses/digital-illustration.png"
     },
     {
       "title": "Sculpting with Clay: A Hands-On Experience",
       "description": "This webinar will guide you through the basics of clay sculpting, from shaping and molding to adding intricate details and textures.",
       "link": "https://artschool.com/webinars/sculpting-with-clay",
-      "isFeatured": false
+      "isFeatured": false,
+      "image": "/courses/sculpture.png"
     },
     {
       "title": "Understanding Color Theory in Art",
       "description": "Discover the fundamentals of color theory and its application in various forms of visual art. Learn how to use color effectively to convey emotion and meaning.",
       "link": "https://artschool.com/webinars/color-theory",
-      "isFeatured": false
+      "isFeatured": true,
+      "image":"https://images.unsplash.com/photo-1464820453369-31d2c0b651af?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
     },
     {
       "title": "From Sketch to Canvas: The Painting Process",
       "description": "This webinar takes you through the entire painting process, from sketching your initial concept to applying the finishing touches on your canvas.",
       "link": "https://artschool.com/webinars/painting-process",
-      "isFeatured": true
+      "isFeatured": true,
+      "image":"/courses/oil-painting.png"
     },
     {
       "title": "The Art of Portrait Drawing",
       "description": "Learn the techniques and skills required to capture the human form and personality through portrait drawing in this detailed webinar session.",
       "link": "https://artschool.com/webinars/portrait-drawing",
-      "isFeatured": false
+      "isFeatured": false,
+      "image":"/courses/portrait-drawing.png"
     },
     {
       "title": "Exploring Mixed Media Art",
       "description": "Discover the exciting world of mixed media art, combining traditional and modern techniques to create visually dynamic pieces.",
       "link": "https://artschool.com/webinars/mixed-media-art",
-      "isFeatured": true
+      "isFeatured": true,
+      "image":"/courses/mixed-media.png"
     },
     {
       "title": "Watercolor Techniques for Beginners",
       "description": "Start your watercolor journey with this webinar, covering fundamental techniques, color mixing, and brush control for beautiful watercolor art.",
       "link": "https://artschool.com/webinars/watercolor-techniques",
-      "isFeatured": false
+      "isFeatured": false,
+      "image":"/courses/watercolor.png"
     },
     {
       "title": "Photography as an Art Form",
       "description": "Explore the artistic side of photography, focusing on composition, lighting, and storytelling to capture stunning, meaningful photographs.",
       "link": "https://artschool.com/webinars/photography-art",
-      "isFeatured": true
+      "isFeatured": true,
+      "image":"https://images.unsplash.com/photo-1542312940-2b6aaa1b28eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBob3RvZ3JhcGh5fGVufDB8fDB8fHww"
     }
   ],
   "instructors": [
