@@ -135,10 +135,12 @@ export function ExpandableCards() {
                   duration: 0.05,
                 },
               }}
-              className="flex absolute bottom-0 left-1/2 transform -translate-x-1/2 lg:hidden items-center justify-center h-16 w-16"
+              className="flex absolute bottom-0 left-0 lg:hidden items-center justify-center h-16 w-full"
               onClick={() => setActive(null)}
             >
+              <span className="py-2 px-6 rounded-lg bg-white/10">
               <CloseIcon2 />
+              </span>
             </motion.button>
             </div>
                 </div>
