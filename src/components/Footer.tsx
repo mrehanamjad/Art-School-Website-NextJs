@@ -15,7 +15,7 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
             Our Art School is dedicated to nurturing creativity and artistic
-            excellence. Whether you're a beginner or a seasoned artist, our
+            excellence. Whether you&apos;re a beginner or a seasoned artist, our
             courses are designed to inspire, educate, and elevate your artistic
             journey.
           </p>
@@ -26,7 +26,6 @@ function Footer() {
           {links.map((link)=>(
             <li key={link.slug}>
             <Link 
-
             href={link.slug}
             className="hover:text-white transition-colors duration-300"
             >
