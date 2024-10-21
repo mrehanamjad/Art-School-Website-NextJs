@@ -39,7 +39,7 @@ function FeaturedCoursesSection() {
                             <Image width={240} height={240} src={course.image} alt={course.title + " image"} className="object-contain h-60 rounded-md " />
                             <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                             <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
-                            <Link href={`/courses/${course.slug}`} className="w-40 h-12 p-[1px] bg-gradient-to-r from-indigo-400 to-cyan-400 rounded-3xl mt-4">
+                            <Link href={`#`} className="w-40 h-12 p-[1px] bg-gradient-to-r from-indigo-400 to-cyan-400 rounded-3xl mt-4">
                             <div className="h-full w-full flex items-center justify-center duration-100 bg-black text-neutral-200  rounded-3xl gap-1 hover:gap-2">
                             Learn More <span>➜</span>
                             </div>
