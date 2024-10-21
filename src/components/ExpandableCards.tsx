@@ -135,7 +135,7 @@ export function ExpandableCards() {
                   duration: 0.05,
                 },
               }}
-              className="flex absolute bottom-0 right-1/2 lg:hidden items-center justify-center h-16 w-16"
+              className="flex absolute bottom-0 left-1/2 transform translate-x-[-50%] lg:hidden items-center justify-center h-16 w-16"
               onClick={() => setActive(null)}
             >
               <CloseIcon2 />
