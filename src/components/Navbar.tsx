@@ -116,6 +116,7 @@ export const SideBar = ({
   );
 };
 
+
 export const CloseIcon = () => (
   <motion.svg
     initial={{
